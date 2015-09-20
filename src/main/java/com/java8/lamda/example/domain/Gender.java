@@ -1,6 +1,8 @@
 package com.java8.lamda.example.domain;
 
 /**
- * @author MikeW
+ * @author maheshrajannan
+ * 
+ * Simple gender enumeration.
  */
 public enum Gender { MALE, FEMALE }

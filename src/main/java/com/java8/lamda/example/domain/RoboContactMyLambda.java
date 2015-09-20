@@ -6,27 +6,27 @@ import java.util.List;
  *
  * @author MikeW
  */
-public class RoboContactAnon {
+public class RoboContactMyLambda {
 
-  public void phoneContacts(List<Person> pl, MyTest<Person> aTest){
+  public void phoneContacts(List<Person> pl, MyPredicate<Person> aTest){
     for(Person p:pl){
-      if (aTest.test(p)){
+      if (aTest.check(p)){
         roboCall(p);
       }
     }
   }
 
-  public void emailContacts(List<Person> pl, MyTest<Person> aTest){
+  public void emailContacts(List<Person> pl, MyPredicate<Person> aTest){
     for(Person p:pl){
-      if (aTest.test(p)){
+      if (aTest.check(p)){
         roboEmail(p);
       }
     }
   }
 
-  public void mailContacts(List<Person> pl, MyTest<Person> aTest){
+  public void mailContacts(List<Person> pl, MyPredicate<Person> aTest){
     for(Person p:pl){
-      if (aTest.test(p)){
+      if (aTest.check(p)){
         roboMail(p);
       }
     }

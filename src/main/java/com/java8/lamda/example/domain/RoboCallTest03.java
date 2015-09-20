@@ -10,14 +10,14 @@ public class RoboCallTest03 {
   public static void main(String[] args) {
     
     List<Person> pl = Person.createShortList();
-    RoboContactAnon robo = new RoboContactAnon();
+    RoboContactMyLambda robo = new RoboContactMyLambda();
     
     System.out.println("\n==== Test 03 ====");
     System.out.println("\n=== Calling all Drivers ===");
     robo.phoneContacts(pl, 
-        new MyTest<Person>(){
+        new MyPredicate<Person>(){
           @Override
-          public boolean test(Person p){
+          public boolean check(Person p){
             return p.getAge() >=16;
           }
         }
@@ -25,9 +25,9 @@ public class RoboCallTest03 {
     
     System.out.println("\n=== Emailing all Draftees ===");
     robo.emailContacts(pl, 
-        new MyTest<Person>(){
+        new MyPredicate<Person>(){
           @Override
-          public boolean test(Person p){
+          public boolean check(Person p){
             return p.getAge() >= 18 && p.getAge() <= 25 && p.getGender() == Gender.MALE;
           }
         }
@@ -36,9 +36,9 @@ public class RoboCallTest03 {
     
     System.out.println("\n=== Mail all Pilots ===");
     robo.mailContacts(pl, 
-        new MyTest<Person>(){
+        new MyPredicate<Person>(){
           @Override
-          public boolean test(Person p){
+          public boolean check(Person p){
             return p.getAge() >= 23 && p.getAge() <= 65;
           }
         }
