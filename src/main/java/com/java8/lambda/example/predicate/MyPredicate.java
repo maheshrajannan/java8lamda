@@ -1,4 +1,4 @@
-package com.java8.lambda.example.domain;
+package com.java8.lambda.example.predicate;
 
 /**
  * Simple Alternative to Predicate.

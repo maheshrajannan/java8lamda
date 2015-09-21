@@ -3,6 +3,8 @@ package com.java8.lambda.example.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.java8.lambda.example.predicate.MyPredicate;
+
 /**
  *
  * @author maheshrajannan

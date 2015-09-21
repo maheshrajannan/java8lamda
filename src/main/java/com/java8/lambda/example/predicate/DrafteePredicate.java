@@ -1,7 +1,10 @@
 /**
  * 
  */
-package com.java8.lambda.example.domain;
+package com.java8.lambda.example.predicate;
+
+import com.java8.lambda.example.domain.Gender;
+import com.java8.lambda.example.domain.Person;
 
 /**
  * @author maheshrajannan

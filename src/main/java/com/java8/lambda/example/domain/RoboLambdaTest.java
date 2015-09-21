@@ -14,9 +14,13 @@ public class RoboLambdaTest {
     List<Person> pl = PersonCreator.createShortList();
     RoboContactLambda robo = new RoboContactLambda();
     
-    // Predicates
+    // Predicates.
+    //INFO: Predicate is nothing but
+    //a generic class(precisely functional interface) of Type <T>,
+    //The class in itself is tailored for an expression that evaluates to true or false.
     Predicate<Person> allDrivers = p -> p.getAge() >= 16;
-    Predicate<Person> allDraftees = p -> p.getAge() >= 18 && p.getAge() <= 25 && p.getGender() == Gender.MALE;
+    Predicate<Person> allDraftees = p -> p.getAge() >= 18
+    		&& p.getAge() <= 25 && p.getGender() == Gender.MALE;
     Predicate<Person> allPilots = p -> p.getAge() >= 23 && p.getAge() <= 65;
     
     System.out.println("\n==== Test 04 ====");

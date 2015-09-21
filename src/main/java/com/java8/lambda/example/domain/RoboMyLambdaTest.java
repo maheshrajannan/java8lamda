@@ -2,6 +2,10 @@ package com.java8.lambda.example.domain;
 
 import java.util.List;
 
+import com.java8.lambda.example.predicate.DrafteePredicate;
+import com.java8.lambda.example.predicate.DriverPredicate;
+import com.java8.lambda.example.predicate.PilotPredicate;
+
 /**
  * @author MikeW
  */
