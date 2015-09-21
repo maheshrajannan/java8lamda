@@ -1,4 +1,4 @@
-package com.java8.lamda.example.domain;
+package com.java8.lambda.example.domain;
 
 import java.util.List;
 import java.util.function.Predicate;
@@ -7,11 +7,11 @@ import java.util.function.Predicate;
  *
  * @author MikeW
  */
-public class RoboCallTest04 {
+public class RoboLambdaTest {
   
   public static void main(String[] args){ 
 
-    List<Person> pl = Person.createShortList();
+    List<Person> pl = PersonCreator.createShortList();
     RoboContactLambda robo = new RoboContactLambda();
     
     // Predicates

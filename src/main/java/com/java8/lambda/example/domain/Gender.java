@@ -1,4 +1,4 @@
-package com.java8.lamda.example.domain;
+package com.java8.lambda.example.domain;
 
 /**
  * @author maheshrajannan

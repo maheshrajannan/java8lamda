@@ -46,7 +46,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getGivenName()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getGivenName()}.
 	 */
 	@Test
 	public void testGetGivenName() {
@@ -54,7 +54,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getSurName()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getSurName()}.
 	 */
 	@Test
 	public void testGetSurName() {
@@ -62,7 +62,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getAge()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getAge()}.
 	 */
 	@Test
 	public void testGetAge() {
@@ -70,7 +70,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getGender()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getGender()}.
 	 */
 	@Test
 	public void testGetGender() {
@@ -78,7 +78,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getEmail()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getEmail()}.
 	 */
 	@Test
 	public void testGetEmail() {
@@ -86,7 +86,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getPhone()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getPhone()}.
 	 */
 	@Test
 	public void testGetPhone() {
@@ -94,7 +94,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#getAddress()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#getAddress()}.
 	 */
 	@Test
 	public void testGetAddress() {
@@ -102,7 +102,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#print()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#print()}.
 	 */
 	@Test
 	public void testPrint() {
@@ -110,7 +110,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#toString()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#toString()}.
 	 */
 	@Test
 	public void testToString() {
@@ -118,7 +118,7 @@ public class PersonTest {
 	}
 
 	/**
-	 * Test method for {@link com.java8.lamda.example.domain.Person#createShortList()}.
+	 * Test method for {@link com.java8.lambda.example.domain.Person#createShortList()}.
 	 */
 	@Test
 	public void testCreateShortList() {
