@@ -13,7 +13,7 @@ public class RoboMyLambdaTest {
 
   public static void main(String[] args) {
     
-    List<Person> pl = PersonCreator.createShortList();
+    List<Person> people = PersonCreator.createShortList();
     RoboContactMyLambda robo = new RoboContactMyLambda();
     
     System.out.println("\n==== Test 03 ====");
@@ -21,14 +21,14 @@ public class RoboMyLambdaTest {
     /**
      * Moving to separate predicates for easy testability.
      */
-    robo.phoneContacts(pl, DriverPredicate.getInstance());
+    robo.phoneContacts(people, DriverPredicate.getInstance());
     
     System.out.println("\n=== Emailing all Draftees ===");
-    robo.emailContacts(pl,DrafteePredicate.getInstance());
+    robo.emailContacts(people,DrafteePredicate.getInstance());
     
     
     System.out.println("\n=== Mail all Pilots ===");
-    robo.mailContacts(pl,PilotPredicate.getInstance());
+    robo.mailContacts(people,PilotPredicate.getInstance());
     
     
   }
